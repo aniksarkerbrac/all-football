@@ -1,0 +1,9 @@
+.header{
+    height: 250px;
+    background-color: #16b13a;
+    color: white;
+}
+.header img{
+    height: 200px;
+    width: 200px;
+}
