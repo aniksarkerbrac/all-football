@@ -34,10 +34,10 @@ const ClubDetails = () => {
                 <div className="infoImage-container d-flex justify-content-between">
                     <div className="info-container">
                         <h1>{strTeam}</h1>
-                        <p><img src={founded} /> Founded: {intFormedYear}</p>
-                        <p><img src={country} /> Country: {strCountry}</p>
-                        <p><img src={football} /> Sports Type: {strSport}</p>
-                        <p><img src={gender} /> Gender: {strGender}</p>
+                        <p><img src={founded} alt="" /> Founded: {intFormedYear}</p>
+                        <p><img src={country} alt="" /> Country: {strCountry}</p>
+                        <p><img src={football} alt="" /> Sports Type: {strSport}</p>
+                        <p><img src={gender} alt="" /> Gender: {strGender}</p>
                     </div>
                     <div className="image-container">
                         {
